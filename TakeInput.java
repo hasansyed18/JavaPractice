@@ -5,5 +5,6 @@ class TakeInput {
         System.out.println("ENTER YOUR NAME");
         String name = sc.nextLine();
         System.out.println("HELLO " +name+ "!");
+        sc.close();
     }
 }

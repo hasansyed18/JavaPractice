@@ -8,5 +8,6 @@ class Sum {
         System.out.println("ENTER THE SECOND NUMBER");
         num2 = sc.nextDouble();
         System.out.println("Sum of the given two number are :"+(num1 + num2));
+        sc.close();
     }
 }
